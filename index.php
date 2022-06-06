@@ -16,7 +16,7 @@ $frase_censurata= str_replace($bad_word,'***',$pharagraph);
 </head>
 <body>
     <h1>The ring-necked dove</h1>
-    <span style='display:block'> Il seguente paragrafo contiene: <?php echo $pharagraph_lenght?> parole</span>
-    <p><?php echo $frase_censurata ?> </p>
+    <span style='display:block'> Il seguente paragrafo contiene: <?php echo $pharagraph_lenght;?> parole</span>
+    <p><?php echo $frase_censurata; ?> </p>
 </body>
 </html>
